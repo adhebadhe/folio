@@ -5,6 +5,17 @@
     padding: 0;
 }
 
+/*
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  */
+
+
+
+
 body {
     background-color: #1c1c1c;
     color: white;
@@ -48,8 +59,7 @@ body {
 
 .tech {
     display: flex;
-    position: relative;
-    top: 40px;
+    margin-top: 20px;
     margin-left: 150px;
     font-size: 1.4rem;
     padding: 0 3rem;
@@ -63,14 +73,82 @@ body {
 }
 
 .font-sm {
-    margin-left: 20px;
     font-size: .8rem;
+    margin: 4px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
 .pos-galx {
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.pos-divo {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.line {
+    height: 1px;
+    width: 50px;
+
+}
+
+.tlcontent {
+    font-size: 2rem;
+    left: 15%;
+    bottom: 2px;
+    color: white;
+    position: absolute;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.trcontent {
+    font-size: 2rem;
+    bottom: 2px;
+    right: 25%;
+    position: absolute;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.blcontent {
+    top: 20px;
+    left: 20%;
+    position: absolute;
+}
+
+.brcontent {
+    top: 20px;
+    right: 5%;
+    position: absolute;
+}
+
+.vline {
+    width: 1px;
+    height: 150px;
+    background-color: white;
+    top: 40%;
+    left: 55%;
+    position: absolute;
+}
+
+.hline {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    top: 50%;
     position: relative;
 }
 
+.box {
+    width: 910px;
+    height:500px;
+    position: relative;
+}
 
 
 
