@@ -80,10 +80,8 @@ body {
 }
 
 .pos-galx {
-    text-align: right;
-    margin-top: 100px;
-    margin-right: 200px;
-    margin-left: 200px;
+    right: 250px;
+    position: absolute;
 }
 .pos-divo {
     margin-top: 100px;
@@ -146,7 +144,7 @@ body {
 
 .box {
     width: 910px;
-    height:500px;
+    height:300px;
     position: relative;
 }
 
