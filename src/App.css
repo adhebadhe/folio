@@ -13,9 +13,6 @@
   }
   */
 
-
-
-
 body {
     background-color: #1c1c1c;
     color: white;
@@ -79,15 +76,6 @@ body {
     monospace;
 }
 
-.pos-galx {
-    right: 250px;
-    position: absolute;
-}
-.pos-divo {
-    margin-top: 100px;
-    margin-left: 200px;
-}
-
 .line {
     height: 1px;
     width: 50px;
@@ -145,6 +133,39 @@ body {
 .box {
     width: 910px;
     height:300px;
+    position: relative;
+}
+
+
+/* =====================================
+    Setting up Project box's
+========================================*/
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.cline {
+    width: 300px;
+    top: 35%;
+    left: -60%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+}
+.cline p{
+    left: 25%;
+    bottom: 30px;
+    position: relative;
+    font-size: 1.5rem;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace
+}
+
+.tcontainer {
     position: relative;
 }
 

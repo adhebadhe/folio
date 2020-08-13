@@ -7,10 +7,10 @@ import Card from './Card';
 
 const Cards = () => {
   return (
-    <div>
-      <div className="pos-galx">
-        <Card image={imgdb} />
-      </div>
+    <div className="cards">
+        <Card image={imgdb} name="Image Database" />
+        <Card image={galaxian}  name="Galaxian"/>
+        <Card image={divo}  name="Divo"/>
     </div>
   )
 }
