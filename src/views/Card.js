@@ -4,8 +4,14 @@ import { motion } from 'framer-motion';
 const Card = ({image, name}) => {
 	return (
 		<motion.div
-			whileHover={{ scale: 1.02 }}
-			whileTap=  {{ scale:   .9 }}
+			whileHover = {{ scale: 1.09 }}
+      whileTap   = {{ scale: .9   }}
+      transition = {{ 
+        type: "spring",
+        stiffness: 500,
+        damping: 20,
+        mass: 100
+     }}
 		>
 			<div className="tcontainer">
 				<div className="cline"><p>{name}</p></div>
@@ -18,7 +24,7 @@ const Card = ({image, name}) => {
 const imgStyle = {
 	width: '500px',
 	objectFit: 'fit',
-	borderRadius: '22px',
+	borderRadius: '4px',
 	marginBottom: '90px'
 }
 

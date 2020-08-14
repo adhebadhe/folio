@@ -7,7 +7,7 @@ const Box = () => {
       <div className="vline"></div>
 
       <div className="hline">
-        <div className="tlcontent">Technical Stalk</div>
+        <div className="tlcontent">Technical Stack</div>
         <div className="trcontent">Tools</div>
 
         <div className="blcontent">
